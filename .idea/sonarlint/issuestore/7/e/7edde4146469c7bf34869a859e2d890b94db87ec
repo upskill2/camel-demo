@@ -1,0 +1,11 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÀþÜ¢Å1
+\
+java:S1854"?Remove this useless assignment to local variable "currentTime".(Êå÷Ž8Š²†£Å1
+M
+java:S1481"0Remove this unused "currentTime" local variable.(Êå÷Ž8‹²†£Å1
+k
+java:S1128"IRemove this unused import 'org.springframework.context.annotation.Scope'.(þè®€ÿÿÿÿÿ8‚Öã¢Å1
+P
+java:S1128".Remove this unused import 'java.time.Instant'.(Â‚éñÿÿÿÿÿ8£ÒÝ¢Å1
