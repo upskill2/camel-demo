@@ -2,9 +2,15 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/camel-microservice-a-test/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/test/src/main/java" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.1.6" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="f74cdc66-9194-4690-8a02-e7ed6324968f" />

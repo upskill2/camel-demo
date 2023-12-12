@@ -1,8 +1,9 @@
+app:
+  configs:
+    name: "camel-test123"
+    send-files: true
+    type: "activemq"
+
 spring:
   activemq:
-    broker-url=tcp://localhost:61616
-
-app:
-  sendToFile: "true"
-  queueName: "camel-microservice-b"
-
+    broker-url: "tcp://localhost:61616"

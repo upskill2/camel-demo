@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/camel-demo.iml" filepath="$PROJECT_DIR$/.idea/camel-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/camel-microservice-a/camel-microservice-a.iml" filepath="$PROJECT_DIR$/camel-microservice-a/camel-microservice-a.iml" />
     </modules>
   </component>
 </project>
