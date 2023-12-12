@@ -15,8 +15,6 @@ I
 camel-microservice-a/mvnw,1\b\1bb12a2002caa5776218701a042278cd4c1271e5
 M
 camel-microservice-a/mvnw.cmd,f\3\f33b39ff54a9e845fcdd259b0595a84064e3e2e8
-—
-gcamel-microservice-a/src/main/java/com/camelexample/camelmicroservicea/routes/a/MyFirstTimerRouter.java,7\e\7edde4146469c7bf34869a859e2d890b94db87ec
 ’
 bcamel-microservice-a/src/main/java/com/camelexample/camelmicroservicea/routes/a/TimeComponent.java,c\c\cc0daf2888805cb922873ceb73bc2658862837a2
 •
@@ -31,8 +29,6 @@ K
 docker-compose/activeMQ.yml,1\7\1791415caf5d6849b4340ecd93c003659a5b0cd0
 ™
 icamel-microservice-a/src/main/java/com/camelexample/camelmicroservicea/routes/c/ActiveMqSenderRouter.java,d\6\d63698df092ba9fe0f928c22cfc81305712477f4
-n
->camel-microservice-a/src/main/resources/application.properties,9\f\9f7bb2a3c5bcfc042f5933846c8d43f2188832ac
 O
 camel-microservice-b/.gitignore,5\3\538dd04899840d0bdae098b032277063e91d9cba
 g
@@ -41,7 +37,9 @@ g
 icamel-microservice-b/src/main/java/com/camelexample/camelmicroserviceb/CamelMicroserviceBApplication.java,4\c\4c267fb33bb9fc4ab22054de991b945c21c21e94
 Q
 !camel-microservice-a/untitled.iml,e\4\e4ff94db6b96c7edffaeb1f73ec27e529909caba
-’
-bcamel-microservice-b/src/main/java/com/camelexample/camelmicroserviceb/ActiveMaReceiverRouter.java,0\0\006c854c1e399e6b8115ca4f980bfcadd22da745
 ™
 icamel-microservice-b/src/main/java/com/camelexample/camelmicroserviceb/routes/ActiveMaReceiverRouter.java,1\b\1bcc8c8c1bfd820ad6aaa80a4d4b5e3cfd626842
+O
+camel-microservice-a/.gitignore,1\9\1958003a7a488a96457797b3290cb4a59906b0d1
+’
+bcamel-microservice-a/src/main/java/com/camelexample/camelmicroservicea/routes/c/AppProperties.java,d\b\dbd2588c9c6a655ec092c873d59313c25641960d
