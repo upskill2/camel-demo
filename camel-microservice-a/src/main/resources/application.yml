@@ -1,4 +1,6 @@
 app:
+  endpoint1 : "log:endpointFromProperties"
+  timePeriod: 5000
   configs:
     name: "camel-test123"
     send-files: true

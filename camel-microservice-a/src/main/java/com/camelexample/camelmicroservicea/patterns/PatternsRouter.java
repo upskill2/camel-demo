@@ -20,6 +20,8 @@ public class PatternsRouter extends RouteBuilder {
     @Override
     public void configure () throws Exception {
 
+        errorHandler (deadLetterChannel ("activemq:dead-letter-queue"));
+
         //multicast pattern
         from ("timer:multicast?period=10000")
                 .id ("Multicast-Route")
@@ -50,7 +52,7 @@ public class PatternsRouter extends RouteBuilder {
         String routingSlip = "direct:endpoint1,direct:endpoint2";
         String routingSlip1 = "direct:endpoint1,direct:endpoint2";
 
-        from ("timer:routingSlip?period=10000")
+        from ("timer:routingSlip?period={{{app.timePeriod}}")
                 .transform ().constant ("My message is Hardcoded")
                 .routingSlip (simple (routingSlip));
 
@@ -58,15 +60,18 @@ public class PatternsRouter extends RouteBuilder {
                 .to ("log:endpoint1");
 
         from ("direct:endpoint2")
-                .to ("log:endpoint2");
+                .to ("{{app.endpoint1}}");
 
         from ("direct:endpoint3")
+                .wireTap ("log:wire-tap")
                 .to ("log:endpoint3");
 
         //dynamic routing
-        from("timer:routingSlip1?period=10000")
+        from("timer:routingSlip1?period=3000")
                 .transform().constant("My message is Hardcoded")
                 .dynamicRouter(method(dynamicRouterBean, "decideTheNextEndpoint"));
+
+
 
 
     }
