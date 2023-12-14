@@ -9,3 +9,7 @@ app:
   name: "camel-test"
   use: true
 
+camel:
+  component:
+    kafka:
+      brokers: localhost:9092
