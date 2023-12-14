@@ -1,6 +1,6 @@
-package com.camelexample.camelmicroserviceb.routes.controller;
+package com.camelexample.camelmicroserviceb.controller;
 
-import com.camelexample.camelmicroserviceb.routes.CurrencyExchange;
+import com.camelexample.camelmicroserviceb.domain.CurrencyExchange;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package routes.a;
+package com.camelexample.camelmicroservicea.a;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

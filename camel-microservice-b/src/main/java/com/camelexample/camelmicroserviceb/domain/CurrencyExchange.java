@@ -1,4 +1,4 @@
-package com.camelexample.camelmicroserviceb.routes;
+package com.camelexample.camelmicroserviceb.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

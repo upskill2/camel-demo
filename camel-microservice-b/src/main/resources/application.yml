@@ -3,7 +3,9 @@ server:
 
 spring:
   activemq:
-    broker-url:"http://localhost:61616"
+    broker-url: "tcp://localhost:61616"
+    #packages:
+      #trust-all: true
 
 app:
   name: "camel-test"

@@ -1,4 +1,4 @@
-package routes.configs;
+package com.camelexample.camelmicroservicea.configs;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;

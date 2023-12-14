@@ -1,9 +1,7 @@
 package com.camelexample.camelmicroserviceb.routes;
 
+import com.camelexample.camelmicroserviceb.domain.CurrencyExchange;
 import org.apache.camel.builder.RouteBuilder;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
 //@Component
 public class KafkaReceiverRouter extends RouteBuilder {
@@ -16,4 +14,5 @@ public class KafkaReceiverRouter extends RouteBuilder {
                 .jacksonXml (CurrencyExchange.class)
                 .to ("log:received-message-from-kafka");
     }
+
 }

@@ -1,4 +1,4 @@
-package routes.b;
+package com.camelexample.camelmicroservicea.b;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.camel.Body;

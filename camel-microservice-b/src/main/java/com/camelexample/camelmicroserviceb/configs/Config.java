@@ -1,4 +1,4 @@
-package com.camelexample.camelmicroserviceb.routes;
+package com.camelexample.camelmicroserviceb.configs;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package routes.a;
+package com.camelexample.camelmicroservicea.a;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

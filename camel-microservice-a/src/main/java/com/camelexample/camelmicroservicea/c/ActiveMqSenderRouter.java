@@ -1,10 +1,8 @@
-package routes.c;
+package com.camelexample.camelmicroservicea.c;
 
 import org.apache.camel.builder.RouteBuilder;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import routes.configs.AppPropertyConfigs;
 
 @Component
 public class ActiveMqSenderRouter extends RouteBuilder {

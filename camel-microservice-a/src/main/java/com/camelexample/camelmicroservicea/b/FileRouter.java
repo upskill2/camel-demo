@@ -1,4 +1,4 @@
-package routes.b;
+package com.camelexample.camelmicroservicea.b;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
